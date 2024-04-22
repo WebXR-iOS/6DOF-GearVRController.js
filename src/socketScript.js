@@ -1,3 +1,7 @@
+/**
+ * @author crazyh / https://github.com/crazyh2
+ */
+
 class SocketManager {
     constructor() {
         console.log("Waiting for Peer connection");
