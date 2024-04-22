@@ -2,7 +2,7 @@
  * @author crazyh / https://github.com/crazyh2
  */
 
-import "./lib/www-ahrs.js";
+import AHRS from "./lib/www-ahrs.js";
 
 class ClientTracking {
     constructor(domElement, handObject) {
@@ -17,8 +17,6 @@ class ClientTracking {
         this.peerId = this.makeid(3) + "-" + this.makeid(3) + "-" + this.makeid(3);
 
         this.socket = io();
-
-        var AHRS = require("ahrs");
 
         this.ahrs = new AHRS({
 
