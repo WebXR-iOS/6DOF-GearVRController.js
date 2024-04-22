@@ -17,3 +17,5 @@ An easy way to use GearVR for more complicated use cases such as VR game that ne
 - [110 Deg Webcam](https://www.amazon.co.uk/Smilodon-Microphone-Conferencing-Streaming-Compatible/dp/B0953KQR3N/ref=sr_1_3?crid=1FMQYH9ZB2HYH&dib=eyJ2IjoiMSJ9.v2J-TJtrey4cizQ06OawHVIrFgoeRPpFw8JTt9Zbf6vomJO_CFErj8ThnzrYkGNyxdmuRbI0xnhwjGWzGQtiOvQqsVEuBo0InfnFjKLAcaj7wE4-E-ZpBDMIiR1xmADWsr7YCun2UShGsjaxbSvvoRvseWYJbBNMK1fYxJG6fAq4JPLgKLBjjRNImuM5aKFwe-tQ_QD_jKq4eXpgEOuQZhExLTFRcvB6741EZqtuaXY.Fpkh2qrMLc3rGHQzMNtto6OVqSXuBWwk5cA_gRMP3-c&dib_tag=se&keywords=110+webcam&qid=1713800226&sprefix=110+webcam%2Caps%2C73&sr=8-3)
 
 ## Final Controllers
+![](/README_assets/final_controller_1.jpg)
+![](/README_assets/final_controller%202.jpg)
