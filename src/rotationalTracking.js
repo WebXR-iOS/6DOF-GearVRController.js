@@ -2,7 +2,7 @@
  * @author crazyh / https://github.com/crazyh2
  */
 
-import { ControllerBluetoothInterface } from "../utils/ControllerBluetoothInterface.js";
+import { ControllerBluetoothInterface } from "./lib/ControllerBluetoothInterface.js";
 
 class RotationalTracking {
     constructor(root) {
