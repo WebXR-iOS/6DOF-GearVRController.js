@@ -16,6 +16,28 @@ An easy way to use GearVR for more complicated use cases such as VR game that ne
 - [Scissors](https://www.amazon.co.uk/scissors/s?k=scissors)
 - [110 Deg Webcam](https://www.amazon.co.uk/Smilodon-Microphone-Conferencing-Streaming-Compatible/dp/B0953KQR3N/ref=sr_1_3?crid=1FMQYH9ZB2HYH&dib=eyJ2IjoiMSJ9.v2J-TJtrey4cizQ06OawHVIrFgoeRPpFw8JTt9Zbf6vomJO_CFErj8ThnzrYkGNyxdmuRbI0xnhwjGWzGQtiOvQqsVEuBo0InfnFjKLAcaj7wE4-E-ZpBDMIiR1xmADWsr7YCun2UShGsjaxbSvvoRvseWYJbBNMK1fYxJG6fAq4JPLgKLBjjRNImuM5aKFwe-tQ_QD_jKq4eXpgEOuQZhExLTFRcvB6741EZqtuaXY.Fpkh2qrMLc3rGHQzMNtto6OVqSXuBWwk5cA_gRMP3-c&dib_tag=se&keywords=110+webcam&qid=1713800226&sprefix=110+webcam%2Caps%2C73&sr=8-3)
 
+# Controller modifications
+
 ## Final Controllers
 ![](/README_assets/final_controller_1.jpg)
 ![](/README_assets/final_controller%202.jpg)
+
+## Steps to reproduce
+### Prepare lights
+- Get 2 shuttlecocks and make sure that one is red and one is green.
+- Cut the feathers off of the shuttlecocks.
+- Remove the blue tape off both of the shuttlecocks.
+
+### Tape the lights
+- Cut off the tape into 3 bits width ways so you have 3 smaller bits of tape.
+- Tape one on one side and the other on the oppersite side of the light.
+- Finish by Wrapping the 3rd bit around the whole bottom like the blue tape was.
+- Attach both loose ends of tape to both sides of the controller.
+- Fill in the gaps with more tape making sure that none of it sticks to the controller so it is easy to turn on and off the light.
+- Repeat for the second controller.
+- You should now have 2 controllers that look simular to mine.
+
+# Final steps
+- Plug in your webcam.
+- Open the webpage in a chromium-based browser.
+- Your done!
