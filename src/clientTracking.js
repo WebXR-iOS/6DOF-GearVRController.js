@@ -5,8 +5,7 @@
 import "./lib/www-ahrs.js";
 
 class ClientTracking {
-    constructor(root, domElement, handObject) {
-        this.root = root;
+    constructor(domElement, handObject) {
         var scope = this;
 
         this.handObject = handObject;
