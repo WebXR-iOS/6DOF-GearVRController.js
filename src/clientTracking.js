@@ -1,7 +1,7 @@
 /**
  * @author crazyh / https://github.com/crazyh2
  */
-import AHRS_REQUIRE from("./lib/www-ahrs.js";
+import AHRS_REQUIRE from "./lib/www-ahrs.js";
 
 class ClientTracking {
     constructor(domElement, handObject) {
