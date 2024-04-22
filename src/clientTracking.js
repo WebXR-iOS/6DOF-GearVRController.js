@@ -1,6 +1,7 @@
 /**
  * @author crazyh / https://github.com/crazyh2
  */
+const AHRS = require("./lib/www-ahrs.js");
 
 class ClientTracking {
     constructor(domElement, handObject) {
@@ -15,8 +16,6 @@ class ClientTracking {
         this.peerId = this.makeid(3) + "-" + this.makeid(3) + "-" + this.makeid(3);
 
         this.socket = io();
-
-        var AHRS = require_ahrs("ahrs");
 
         this.ahrs = new AHRS({
 
