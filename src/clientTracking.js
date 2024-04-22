@@ -2,10 +2,14 @@
  * @author crazyh / https://github.com/crazyh2
  */
 
+import "./lib/www-ahrs.js";
+
 class ClientTracking {
-    constructor(root, domElement) {
+    constructor(root, domElement, handObject) {
         this.root = root;
         var scope = this;
+
+        this.handObject = handObject;
 
         this.cameraScale = 0.29;
 
@@ -87,9 +91,9 @@ class ClientTracking {
             var worldX = -((posx / position.cameraWidth) - 0.5) * 2;
             var worldY = (0.5 - (posy / position.cameraHeight)) * 2;
 
-            this.root.render.scene.hand.position.set(worldX * scope.cameraScale, worldY * scope.cameraScale, posz);
+            this.handObject.position.set(worldX * scope.cameraScale, worldY * scope.cameraScale, posz);
         } else {
-            this.root.render.scene.hand.position.set(0, -0.3, -0.2);
+            this.handObject.position.set(0, -0.3, -0.2);
         };
 
         // Rotation
@@ -115,15 +119,15 @@ class ClientTracking {
         scope.lastTimestamp = data.timestamp;
 
         const {x, y, z, w} = scope.ahrs.getQuaternion();
-        scope.root.render.scene.hand.quaternion.set(x, z, -y, w);
+        scope.handObject.quaternion.set(x, z, -y, w);
 
         if (data.homeButton) {
-            scope.lastZeroQuaternion = scope.root.render.scene.hand.quaternion.clone().inverse();
+            scope.lastZeroQuaternion = scope.handObject.quaternion.clone().inverse();
             console.log(`Re-zeroed orientation! ${(new Date()).valueOf()}`);
         }
 
         if (scope.lastZeroQuaternion) {
-            scope.root.render.scene.hand.quaternion.premultiply(scope.lastZeroQuaternion);
+            scope.handObject.quaternion.premultiply(scope.lastZeroQuaternion);
         }
     };
 
