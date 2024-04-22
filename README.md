@@ -22,14 +22,14 @@ An easy way to use GearVR for more complicated use cases such as VR game that ne
 
 ## Client Side
 ```js
-import { ClientTracking } from "./dist/GearVRController.min.js";
+import { ClientTracking } from "./dist/GearVRController.js";
 
 var tracking = new ClientTracking(codePreviewElement, threejsHandObject);
 ```
 
 ## Server Side
 ```js
-import { ServerTracking } from "./dist/GearVRController.min.js";
+import { ServerTracking } from "./dist/GearVRController.js";
 
 var tracking = new ServerTracking(clientCode);
 ```
