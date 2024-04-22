@@ -2,9 +2,9 @@
  * @author crazyh / https://github.com/crazyh2
  */
 
-import { PositionalTracking  } from "./positionalTracking.js";
-import { RotationalTracking } from "./rotationalTracking.js";
-import { SocketManager } from "./socketScript.js";
+import { PositionalTracking  } from "./serverTracking/positionalTracking.js";
+import { RotationalTracking } from "./serverTracking/rotationalTracking.js";
+import { SocketManager } from "./serverTracking/socketScript.js";
 
 class ServerTracking {
     constructor(code) {
