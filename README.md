@@ -1,3 +1,7 @@
+```
+Under Attribution-NonCommercial-ShareAlike 4.0 International License
+```
+
 # 6DOF GearVR Controller Tracking
 An easy way to use GearVR for more complicated use cases such as VR game that need 6DOF tracking.
 
