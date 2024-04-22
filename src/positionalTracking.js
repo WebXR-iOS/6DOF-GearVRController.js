@@ -1,3 +1,7 @@
+/**
+ * @author crazyh / https://github.com/crazyh2
+ */
+
 class PositionalTracking {
     constructor(root) {
         this.root = root;
