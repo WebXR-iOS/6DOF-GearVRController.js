@@ -1,10 +1,6 @@
 ```
 Under Attribution-NonCommercial-ShareAlike 4.0 International License
-```
-```
 Cwig's under MIT License
-```
-```
 Jsyang's under GPL-3.0 License
 ```
 
