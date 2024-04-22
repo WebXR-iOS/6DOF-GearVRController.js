@@ -32,7 +32,27 @@ An easy way to use GearVR for more complicated use cases such as VR game that ne
 
 ## NodeJS Socket Server
 ```js
+const { Server } = require("socket.io");
+const { createServer } = require('http');
 
+const server = createServer(app);
+const io = new Server(server);
+
+io.on('connection', (socket) => {
+    console.log('User connected ' + socket.id);
+
+    socket.on("controllerDataOut", (id, data) => {
+        socket.to(id).emit("controllerDataIn", data);
+    });
+    
+    socket.on('disconnect', () => {
+        console.log('User disconnected');
+    });
+});
+
+server.listen(8080, () => {
+    console.log(`Web app listening on port ${8080}`);
+});
 ```
 
 # Hardware
