@@ -578,4 +578,4 @@ require_ahrs=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof
     
     },{"./Madgwick":"./Madgwick","./Mahony":"./Mahony"}]},{},[]);
 
-module.exports = require_ahrs;
+export default require_ahrs;
