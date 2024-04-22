@@ -41,3 +41,8 @@ An easy way to use GearVR for more complicated use cases such as VR game that ne
 - Plug in your webcam.
 - Open the webpage in a chromium-based browser.
 - Your done!
+
+# Credits
+- [CrazyH](https://github.com/crazyh2) (Made this repo, added positional tracking and support for multiple controllers)
+- Huge thanks to [Cwig](https://github.com/cwig) for [gearvr exploration](https://github.com/cwig/gearvr-exploration) which created the foundation for the Gear VR controller tracking.
+- Thanks to [jsyang](https://github.com/jsyang) as well for creating a library that [Cwig](https://github.com/cwig) improved on.
